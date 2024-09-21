@@ -20,7 +20,7 @@ The bot operates on a three-component architecture:
 
 ![Bot Logo](https://drive.google.com/uc?export=download&id=1NoxwHpyxA2vUwJrYmxYvrwQD5Wnz58NB)
 
-### Utils Directory
+## Utils Directory
 
 The `utils` directory contains utility functions that support various functionalities of the bot. These utilities help in keeping the code modular and maintainable. Here’s a brief overview of each file:
 
@@ -32,7 +32,7 @@ The `utils` directory contains utility functions that support various functional
 
 - **messageTracker.js**: This utility tracks outgoing messages to ensure that the bot can monitor its responses and any updates related to those messages. This is particularly useful for managing asynchronous operations and handling user responses effectively.
 
-### Services Directory
+## Services Directory
 
 The `services` directory encapsulates the core functionalities that interact with the Telegram API and handle the bot’s operations. It acts as an intermediary between the commands and the Telegram server. Here’s a summary of each service:
 
