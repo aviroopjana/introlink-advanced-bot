@@ -1,0 +1,26 @@
+{
+  "name": "introlink_bot",
+  "version": "1.0.0",
+  "description": "A modular Telegram bot using MTProto and Telegraf",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "keywords": [],
+  "author": "Aviroop Jana",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.0",
+    "eslint": "^9.11.0",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@mtproto/core": "^6.3.0",
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "telegram": "^2.25.4",
+    "telegram-keyboard": "^2.3.5"
+  }
+}
